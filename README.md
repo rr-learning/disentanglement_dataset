@@ -1,7 +1,30 @@
-# disentanglement_dataset
+# Disentanglement datasets
 
-TODO:  
-add brief explanation of the dataset readme  
-add link to arxiv to readme  
-add link to dataset to readme  
-add python script for loading data to readme  
+There are three different datasets: 
+1. The first one consists of simplistic rendered images, 
+2. the second consists of realistic rendered images and 
+3. the third one consists of real images.
+
+Each dataset consists of 460800 images corresponding to all possible combinations of the following factors of variation:
+
+|Factors|Possible Values|
+|---|---|
+|object_color|green=0, red=1, blue=2, brown=3|
+|object_shape|cone=0, cube=1, hexagonal prism=2, sphere=3|
+|object_size|small=0, large=1|
+|camera_height|top=0, center=1, bottom=2|
+|background_color|purple=0, sea green=1, salmon=2|
+|horizontal_axis|0,...,39|
+|vertical_axis|0,...,39|
+
+Each image has as filename padded_index.png where  
+index = object_color * 115200 + object_shape * 28800 + object_size * 14400 + camera_height * 4800 + background_color * 1600 + horizontal_axis * 40 + vertical_axis  
+padded_index = index padded with zeros such that it has 6 digits.
+
+For more details on the dataset please consult _[TODO: link to arxiv]_. For loading the dataset you may make use of the python scripts in this repository.
+
+## Links to datasets
+
+simplistic rendered:  _[TODO: link to google cloud]_  
+realistic rendered:  _not yet published_  
+real images:  _not yet published_  
