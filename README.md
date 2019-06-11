@@ -27,6 +27,6 @@ For more details on the dataset please consult https://arxiv.org/abs/1906.03292.
 
 ## Links to datasets
 
-simplistic rendered:  _[TODO: link to google cloud]_  
+simplistic rendered:  https://storage.googleapis.com/disent_challenge2019/neurips_2019/sim_toy_ordered.tar.gz
 realistic rendered:  _not yet published_  
 real images:  _not yet published_  
