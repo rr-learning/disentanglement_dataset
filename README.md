@@ -23,8 +23,15 @@ padded_index = index padded with zeros such that it has 6 digits.
 
 If you use python, this means that once the data is loaded into a numpy array you can use array.reshape([4,4,2,3,3,40,40]) to obtain an array where each dimension corresponds to a factor.
 
-For more details on the dataset please consult https://arxiv.org/abs/1906.03292. For loading the dataset you may make use of the python scripts in this repository.
-
+For more details on the dataset please consult https://arxiv.org/abs/1906.03292. For loading the dataset you may make use of the python scripts in this repository. If you use this dataset then kindly cite us.
+```
+@article{gondal2019transfer,
+  title={On the Transfer of Inductive Bias from Simulation to the Real World: a New Disentanglement Dataset},
+  author={Gondal, Muhammad Waleed and W{\"u}thrich, Manuel and Miladinovi{\'c}, {\DJ}or{\dj}e and Locatello, Francesco and Breidt, Martin and Volchkov, Valentin and Akpo, Joel and Bachem, Olivier and Sch{\"o}lkopf, Bernhard and Bauer, Stefan},
+  journal={arXiv preprint arXiv:1906.03292},
+  year={2019}
+}
+```
 ## Links to datasets
 
 simplistic rendered:  https://storage.cloud.google.com/disentanglement_dataset/sim_toy_ordered.tar.gz  
