@@ -1,6 +1,6 @@
 ## MPI3D Disentanglement datasets
 
-MPI3D datasets have been introduced as a part of NEURIPS 2019 Disentanglement [Competition.](http://www.disentanglement-challenge.com)
+MPI3D datasets have been introduced as a part of NeurIPS 2019 Disentanglement [Competition.](http://www.disentanglement-challenge.com)
 There are three different datasets:
   
 1. Simplistic rendered images (mpi3d_toy).
