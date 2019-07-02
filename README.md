@@ -1,9 +1,11 @@
-# Disentanglement datasets
+## MPI3D Disentanglement datasets
 
-There are three different datasets: 
-1. The first one consists of simplistic rendered images, 
-2. the second consists of realistic rendered images and 
-3. the third one consists of real images.
+MPI3D datasets have been introduced as a part of NEURIPS 2019 Disentanglement [Competition.](http://www.disentanglement-challenge.com).
+There are three different datasets:
+  
+1. Simplistic rendered images (mpi3d_toy).
+2. Realistic rendered images (mpi3d_realistic).
+3. Real world images (mpi3d_real).
 
 Each dataset consists of 460800 images corresponding to all possible combinations of the following factors of variation:
 
