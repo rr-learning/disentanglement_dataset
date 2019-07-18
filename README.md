@@ -23,7 +23,7 @@ Each image has as filename padded_index.png where
 index = object_color * 115200 + object_shape * 28800 + object_size * 14400 + camera_height * 4800 + background_color * 1600 + horizontal_axis * 40 + vertical_axis  
 padded_index = index padded with zeros such that it has 6 digits.
 
-If you use python, this means that once the data is loaded into a numpy array you can use array.reshape([4,4,2,3,3,40,40]) to obtain an array where each dimension corresponds to a factor.
+If you use python, this means that once the data is loaded into a numpy array you can use array.reshape([4,4,2,3,3,40,40]) to obtain an array where each dimension corresponds to a factor. Size of images for the simplistic rendered dataset are 64x64.
 
 For more details on the dataset please consult https://arxiv.org/abs/1906.03292. For loading the dataset you may make use of the python scripts in this repository. If you use this dataset then kindly cite us.
 ```
