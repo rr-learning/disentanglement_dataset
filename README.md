@@ -39,3 +39,7 @@ For more details on the dataset please consult https://arxiv.org/abs/1906.03292.
 simplistic rendered:  https://storage.cloud.google.com/disentanglement_dataset/sim_toy_ordered.tar.gz  
 realistic rendered:  _not yet published_  
 real images:  _not yet published_  
+
+## License
+
+This work is licensed under a Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/).
