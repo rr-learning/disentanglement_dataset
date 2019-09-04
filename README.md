@@ -36,8 +36,10 @@ For more details on the dataset please consult https://arxiv.org/abs/1906.03292.
 ```
 ## Links to datasets
 
-simplistic rendered:  https://storage.cloud.google.com/disentanglement_dataset/sim_toy_ordered.tar.gz  
-realistic rendered:  _not yet published_  
+simplistic rendered:  [link](https://storage.cloud.google.com/disentanglement_dataset/sim_toy_ordered.tar.gz)
+
+realistic rendered: [link](https://storage.googleapis.com/disentanglement_dataset/data_npz/sim_realistic_64x_ordered_without_heldout_factors.npz)
+
 real images:  _not yet published_  
 
 ## License
