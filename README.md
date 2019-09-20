@@ -1,6 +1,6 @@
 ## MPI3D Disentanglement datasets
 
-Kindly checkout the updated version of the arXiv draft to learn about the dataset in more detail https://arxiv.org/abs/1906.03292 If you use this dataset then kindly cite us.
+Checkout the updated version of the arXiv draft to learn about the dataset in more detail https://arxiv.org/abs/1906.03292 If you use this dataset then kindly cite us.
 ```
 @article{gondal2019transfer,
   title={On the Transfer of Inductive Bias from Simulation to the Real World: a New Disentanglement Dataset},
