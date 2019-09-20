@@ -1,5 +1,16 @@
 ## MPI3D Disentanglement datasets
 
+Kindly checkout the updated version of the arXiv draft to learn about dataset in more detail https://arxiv.org/abs/1906.03292 If you use this dataset then kindly cite us.
+```
+@article{gondal2019transfer,
+  title={On the Transfer of Inductive Bias from Simulation to the Real World: a New Disentanglement Dataset},
+  author={Gondal, Muhammad Waleed and W{\"u}thrich, Manuel and Miladinovi{\'c}, {\DJ}or{\dj}e and Locatello, Francesco and Breidt, Martin and Volchkov, Valentin and Akpo, Joel and Bachem, Olivier and Sch{\"o}lkopf, Bernhard and Bauer, Stefan},
+  journal={arXiv preprint arXiv:1906.03292},
+  year={2019}
+}
+```
+
+
 MPI3D datasets have been introduced as a part of NeurIPS 2019 Disentanglement [Competition.](http://www.disentanglement-challenge.com)
 There are three different datasets:
   
@@ -25,15 +36,7 @@ padded_index = index padded with zeros such that it has 6 digits.
 
 If you use python, this means that once the data is loaded into a numpy array you can use array.reshape([4,4,2,3,3,40,40]) to obtain an array where each dimension corresponds to a factor. Size of images for the simplistic rendered dataset are 64x64.
 
-For more details on the dataset please consult https://arxiv.org/abs/1906.03292. For loading the dataset you may make use of the python scripts in this repository. If you use this dataset then kindly cite us.
-```
-@article{gondal2019transfer,
-  title={On the Transfer of Inductive Bias from Simulation to the Real World: a New Disentanglement Dataset},
-  author={Gondal, Muhammad Waleed and W{\"u}thrich, Manuel and Miladinovi{\'c}, {\DJ}or{\dj}e and Locatello, Francesco and Breidt, Martin and Volchkov, Valentin and Akpo, Joel and Bachem, Olivier and Sch{\"o}lkopf, Bernhard and Bauer, Stefan},
-  journal={arXiv preprint arXiv:1906.03292},
-  year={2019}
-}
-```
+For loading the dataset you may make use of the python scripts in this repository. 
 ## Links to datasets
 
 simplistic rendered:  [link](https://storage.cloud.google.com/disentanglement_dataset/sim_toy_ordered.tar.gz)
