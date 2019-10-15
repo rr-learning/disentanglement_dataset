@@ -36,7 +36,7 @@ Each dataset consists of 1036800 images, corresponding to all possible combinati
 So far we only provide the datasets in 64x64 resolution. Higher resolution versions will be made available in the near future.
 
 ## Reading the Datasets
-So far we only provide the datasets in the form of numpy arrays. Once the data is loaded into a numpy array you can use array.reshape([6,6,2,3,3,40,40,64,64,3]) to obtain an array where first 7 dimensions corresponds to data generative factors as in table above and the last three to the image dimensions.
+So far we only provide the datasets in the form of numpy arrays. Once the data is loaded, you can use array.reshape([6,6,2,3,3,40,40,64,64,3]) to obtain an array where first 7 dimensions corresponds to data generative factors as in the table above and the last three to the image dimensions.
 
 ```
 import numpy as np
