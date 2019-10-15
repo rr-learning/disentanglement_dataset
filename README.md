@@ -1,6 +1,8 @@
 ## MPI3D Disentanglement datasets
 
-Checkout the updated version of the arXiv draft to learn about the dataset in more detail https://arxiv.org/abs/1906.03292 If you use this dataset then kindly cite us.
+MPI3D datasets have been introduced to benchmark representations learning algorithms across simulated and real-world environments. The first transfer learning results of unsupervised disentangled representations are presented in our [NeurIPS 2019 paper.](https://arxiv.org/abs/1906.03292) 
+This dataset is also used in the [NeurIPS Disentanglement Challenge.](http://www.disentanglement-challenge.com)
+If you use this dataset in your work then kindly cite us.
 ```
 @article{gondal2019transfer,
   title={On the Transfer of Inductive Bias from Simulation to the Real World: a New Disentanglement Dataset},
@@ -10,40 +12,36 @@ Checkout the updated version of the arXiv draft to learn about the dataset in mo
 }
 ```
 
-
-MPI3D datasets have been introduced as a part of NeurIPS 2019 Disentanglement [Competition.](http://www.disentanglement-challenge.com)
 There are three different datasets:
   
 1. Simplistic rendered images (mpi3d_toy).
 2. Realistic rendered images (mpi3d_realistic).
 3. Real world images (mpi3d_real).
 
-Each dataset consists of 460800 images corresponding to all possible combinations of the following factors of variation:
+Each dataset consists of 1036800 images, corresponding to all possible combinations of the following factors of variation:
 
 |Factors|Possible Values|
 |---|---|
-|object_color|green=0, red=1, blue=2, brown=3|
-|object_shape|cone=0, cube=1, hexagonal prism=2, sphere=3|
+|object_color|white=0, green=1, red=2, blue=3, brown=4, olive=5|
+|object_shape|cone=0, cube=1, cylinder=2, hexagonal=3, pyramid=4, sphere=5|
 |object_size|small=0, large=1|
 |camera_height|top=0, center=1, bottom=2|
 |background_color|purple=0, sea green=1, salmon=2|
 |horizontal_axis|0,...,39|
 |vertical_axis|0,...,39|
 
-Each image has as filename padded_index.png where  
-index = object_color * 115200 + object_shape * 28800 + object_size * 14400 + camera_height * 4800 + background_color * 1600 + horizontal_axis * 40 + vertical_axis  
-padded_index = index padded with zeros such that it has 6 digits.
+So far we only provide the datasets in 64x64 resolution. Higher resolution versions will be made available in near future.
 
-If you use python, this means that once the data is loaded into a numpy array you can use array.reshape([4,4,2,3,3,40,40]) to obtain an array where each dimension corresponds to a factor. Size of images for the simplistic rendered dataset are 64x64.
+If you use python, this means that once the data is loaded into a numpy array you can use array.reshape([6,6,2,3,3,40,40,64,64,3]) to obtain an array where first 7 dimensions corresponds to data generative factors as in table above and the last three to the image dimensions.
 
 For loading the dataset you may make use of the python scripts in this repository. 
 ## Links to datasets
 
-simplistic rendered:  [link](https://storage.cloud.google.com/disentanglement_dataset/sim_toy_ordered.tar.gz)
+1. mpi3d_toy (simplistic rendered):  [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_toy.npz)
 
-realistic rendered: [link](https://storage.googleapis.com/disentanglement_dataset/data_npz/sim_realistic_64x_ordered_without_heldout_factors.npz)
+2. mpi3d_realistic (realistic rendered): [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_realistic.npz)
 
-real images:  _not yet published_  
+3. mpi3d_real (real-world images): [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_real.npz) 
 
 ## License
 
