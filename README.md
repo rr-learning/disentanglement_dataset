@@ -35,9 +35,18 @@ Each dataset consists of 1036800 images, corresponding to all possible combinati
 
 So far we only provide the datasets in 64x64 resolution. Higher resolution versions will be made available in the near future.
 
-If you use python, this means that once the data is loaded into a numpy array you can use array.reshape([6,6,2,3,3,40,40,64,64,3]) to obtain an array where first 7 dimensions corresponds to data generative factors as in table above and the last three to the image dimensions.
+## Reading the Datasets
+So far we only provide the datasets in the form of numpy arrays. Once the data is loaded into a numpy array you can use array.reshape([6,6,2,3,3,40,40,64,64,3]) to obtain an array where first 7 dimensions corresponds to data generative factors as in table above and the last three to the image dimensions.
 
-For loading the dataset you may make use of the python scripts in this repository. 
+```
+import numpy as np
+data = np.load('./mpi3d_real.npz')['images']
+
+# To visualize each factor of the data independently, you can reshape 
+# the array as the following.
+
+data = data.reshape([6,6,2,3,3,40,40,64,64,3])
+```
 
 ## Downloads
 
