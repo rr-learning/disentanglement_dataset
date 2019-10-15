@@ -14,12 +14,11 @@ If you use this dataset in your work then kindly cite us.
 
 ## Datasets Information
 
-There are four different datasets:
+There are three different datasets:
   
 1. Simplistic rendered images (mpi3d_toy).
 2. Realistic rendered images (mpi3d_realistic).
 3. Real world simple shapes (mpi3d_real).
-4. Real world complex shapes (mpi3d_real_complex).
 
 Each dataset consists of 1036800 images, corresponding to all possible combinations of the following factors of variation:
 
