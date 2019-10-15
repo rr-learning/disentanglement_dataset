@@ -12,11 +12,14 @@ If you use this dataset in your work then kindly cite us.
 }
 ```
 
-There are three different datasets:
+## Datasets Information
+
+There are four different datasets:
   
 1. Simplistic rendered images (mpi3d_toy).
 2. Realistic rendered images (mpi3d_realistic).
-3. Real world images (mpi3d_real).
+3. Real world simple shapes (mpi3d_real).
+4. Real world complex shapes (mpi3d_real_complex).
 
 Each dataset consists of 1036800 images, corresponding to all possible combinations of the following factors of variation:
 
@@ -30,18 +33,20 @@ Each dataset consists of 1036800 images, corresponding to all possible combinati
 |horizontal_axis|0,...,39|
 |vertical_axis|0,...,39|
 
-So far we only provide the datasets in 64x64 resolution. Higher resolution versions will be made available in near future.
+So far we only provide the datasets in 64x64 resolution. Higher resolution versions will be made available in the near future.
 
 If you use python, this means that once the data is loaded into a numpy array you can use array.reshape([6,6,2,3,3,40,40,64,64,3]) to obtain an array where first 7 dimensions corresponds to data generative factors as in table above and the last three to the image dimensions.
 
 For loading the dataset you may make use of the python scripts in this repository. 
-## Links to datasets
+
+## Downloads
+
+Use the following links to download the datasets. 
 
 1. mpi3d_toy (simplistic rendered):  [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_toy.npz)
-
 2. mpi3d_realistic (realistic rendered): [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_realistic.npz)
-
 3. mpi3d_real (real-world images): [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_real.npz) 
+4. mpi3d_real_complex (real-world complex shapes images) : __ not published yet __
 
 ## License
 
