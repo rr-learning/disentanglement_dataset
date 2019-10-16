@@ -53,7 +53,7 @@ Use the following links to download the datasets.
 
 1. mpi3d_toy (simplistic rendered):  [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_toy.npz)
 2. mpi3d_realistic (realistic rendered): [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_realistic.npz)
-3. mpi3d_real (real-world images): __ not published yet __
+3. mpi3d_real (real-world images): [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_real.npz)
 4. mpi3d_real_complex (real-world complex shapes images) : __ not published yet __
 
 ## License
