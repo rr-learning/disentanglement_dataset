@@ -15,10 +15,18 @@ If you use this dataset in your work then kindly cite us.
 ## Datasets Information
 
 There are three different datasets:
-  
-1. Simplistic rendered images (mpi3d_toy).
-2. Realistic rendered images (mpi3d_realistic).
-3. Real world simple shapes (mpi3d_real).
+
+### 1. Real world simple shapes (mpi3d_real).
+
+<img src="https://github.com/rr-learning/disentanglement_dataset/blob/master/sample_gifs/real1.gif"/> <img src="https://github.com/rr-learning/disentanglement_dataset/blob/master/sample_gifs/real2.gif" />
+
+### 2. Realistic rendered images (mpi3d_realistic).
+
+<img src="https://github.com/rr-learning/disentanglement_dataset/blob/master/sample_gifs/realistic1.gif" /> <img src="https://github.com/rr-learning/disentanglement_dataset/blob/master/sample_gifs/realistic2.gif" />
+
+### 3. Simplistic rendered images (mpi3d_toy).
+
+<img src="https://github.com/rr-learning/disentanglement_dataset/blob/master/sample_gifs/toy1.gif" /><img src="https://github.com/rr-learning/disentanglement_dataset/blob/master/sample_gifs/toy2.gif" />
 
 Each dataset consists of 1036800 images, corresponding to all possible combinations of the following factors of variation:
 
