@@ -14,7 +14,7 @@ If you use this dataset in your work then kindly cite us.
 
 ## Datasets Information
 
-There are three different datasets:
+There are following three different datasets. The gifs are created using [disentanglement_lib](https://github.com/google-research/disentanglement_lib) visualization tool.
 
 ### 1. Real world simple shapes (mpi3d_real).
 
