@@ -1,4 +1,6 @@
-## MPI3D Disentanglement datasets
+## MPI3D Disentanglement Datasets
+
+<img src="https://github.com/rr-learning/disentanglement_dataset/blob/master/sample_gifs/platform.jpg" width="418" height="280" /> <img src="https://github.com/rr-learning/disentanglement_dataset/blob/master/sample_gifs/platform2.jpg" width="418" height="281" />
 
 MPI3D datasets have been introduced to benchmark representations learning algorithms across simulated and real-world environments. The first transfer learning results of unsupervised disentangled representations are presented in our [NeurIPS 2019 paper.](https://arxiv.org/abs/1906.03292) 
 This dataset is also used in the [NeurIPS Disentanglement Challenge.](http://www.disentanglement-challenge.com)
@@ -28,7 +30,7 @@ There are following three different datasets. The gifs are created using [disent
 
 <img src="https://github.com/rr-learning/disentanglement_dataset/blob/master/sample_gifs/toy1.gif" /><img src="https://github.com/rr-learning/disentanglement_dataset/blob/master/sample_gifs/toy2.gif" />
 
-Each dataset consists of 1036800 images, corresponding to all possible combinations of the following factors of variation:
+Each dataset consists of 1,036,800 images, corresponding to all the possible combinations of the following factors of variation:
 
 |Factors|Possible Values|
 |---|---|
