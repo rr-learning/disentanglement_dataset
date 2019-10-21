@@ -66,6 +66,9 @@ Use the following links to download the datasets.
 3. mpi3d_real (real-world images): [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_real.npz)
 4. mpi3d_real_complex (real-world complex shapes images) : __ not published yet __
 
+## Feedback
+Please send any feedback to waleed.gondal@tue.mpg.de
+
 ## License
 
 This work is licensed under a Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/).
