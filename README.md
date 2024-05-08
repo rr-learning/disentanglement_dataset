@@ -5,7 +5,7 @@
 MPI3D datasets have been introduced to benchmark representations learning algorithms across simulated and real-world environments. The first transfer learning results of unsupervised disentangled representations are presented in our [NeurIPS 2019 paper.](https://proceedings.neurips.cc/paper/2019/hash/d97d404b6119214e4a7018391195240a-Abstract.html)
 
 ---------------------------------
-**UPDATE:** We have now added real-world complex dataset. The dataset contains 3D printed replicas of real-world objects such coffee cup, tennis ball, croissant, beer cup. Find more details on the factors of variations below.
+*UPDATE:* The download links have been updated.
 ---------------------------------
 
 The dataset is also used in the [NeurIPS Disentanglement Challenge.](http://www.disentanglement-challenge.com)
@@ -93,9 +93,9 @@ data = data.reshape([4,4,2,3,3,40,40,64,64,3])
 
 Use the following links to download the datasets. 
 
-1. mpi3d_toy (simplistic rendered):  [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_toy.npz)
-2. mpi3d_realistic (realistic rendered): [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_realistic.npz)
-3. mpi3d_real (real-world images): [link](https://storage.googleapis.com/disentanglement_dataset/Final_Dataset/mpi3d_real.npz)
+1. mpi3d_toy (simplistic rendered):  [link](https://storage.googleapis.com/mpi3d_disentanglement_dataset/data/mpi3d_toy.npz)
+2. mpi3d_realistic (realistic rendered): [link](https://storage.googleapis.com/mpi3d_disentanglement_dataset/data/mpi3d_realistic.npz)
+3. mpi3d_real (real-world images): [link](https://storage.googleapis.com/mpi3d_disentanglement_dataset/data/real.npz)
 4. mpi3d_real_complex (real-world complex shapes images) : [link](https://drive.google.com/file/d/1Tp8eTdHxgUMtsZv5uAoYAbJR1BOa_OQm/view?usp=sharing)
 
 ## Feedback
