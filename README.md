@@ -93,9 +93,9 @@ data = data.reshape([4,4,2,3,3,40,40,64,64,3])
 
 Use the following links to download the datasets. 
 
-1. mpi3d_toy (simplistic rendered):  [link](https://storage.googleapis.com/mpi3d_disentanglement_dataset/data/mpi3d_toy.npz)
-2. mpi3d_realistic (realistic rendered): [link](https://storage.googleapis.com/mpi3d_disentanglement_dataset/data/mpi3d_realistic.npz)
-3. mpi3d_real (real-world images): [link](https://storage.googleapis.com/mpi3d_disentanglement_dataset/data/real.npz)
+1. mpi3d_toy (simplistic rendered):  [link](https://huggingface.co/datasets/waleedgondal/mpi3d/resolve/main/mpi3d_toy.npz)
+2. mpi3d_realistic (realistic rendered): [link](https://huggingface.co/datasets/waleedgondal/mpi3d/resolve/main/mpi3d_realistic.npz)
+3. mpi3d_real (real-world images): [link](https://huggingface.co/datasets/waleedgondal/mpi3d/resolve/main/mpi3d_real.npz)
 4. mpi3d_real_complex (real-world complex shapes images) : [link](https://drive.google.com/file/d/1Tp8eTdHxgUMtsZv5uAoYAbJR1BOa_OQm/view?usp=sharing)
 
 ## Feedback
